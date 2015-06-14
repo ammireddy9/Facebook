@@ -3,7 +3,7 @@
 #include<conio.h>
 #include<stdlib.h>
 
-#pragma warning(disable: 4996) 
+#pragma warning(disable: 4996) //to disable warnings
 
 int sum = 0, empty = 0;  //size of elements filled in cache, empty for next pos in the cache table
 int cache_table[] = { -1, -1, -1, -1, -1, -1, -1, -1 };  //initial cache table
